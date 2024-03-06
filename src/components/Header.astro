@@ -1,6 +1,6 @@
 ---
-import HeaderButton from '../components/HeaderButton.astro';
-console.log('javascript de Header');
+import { Counter } from './Counter';
+import HeaderButton from './HeaderButton.astro';
 ---
 
 <header class='py-8 px-4 mx-auto max-w-xl lg:py-16 lg:px-6'>
@@ -12,6 +12,8 @@ console.log('javascript de Header');
   >
     All the information about SpaceX launches
   </p>
+
+  <Counter transition:persist client:visible />
 
   <nav
     class='mt-5 flex flex-col items-center justify-between w-full text-center md:flex-row text-white'
