@@ -1,7 +1,5 @@
 # Astro Starter Kit: Basics
 
-To see the things I have done learning the Astro functions see the other branches of this repository!
-
 ```sh
 npm create astro@latest -- --template basics
 ```
