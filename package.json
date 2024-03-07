@@ -1,5 +1,5 @@
 {
-  "name": "spotify-clone",
+  "name": "",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.5.6",
-    "astro": "^4.4.13",
+    "astro": "^4.4.14",
     "tailwind": "^4.0.0",
     "typescript": "^5.4.2"
   }
