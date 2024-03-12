@@ -1,0 +1,30 @@
+---
+import SideMenuItem from './SideMenuItem.astro';
+import HomeIcon from '../icons/Home.astro';
+import SearchIcon from '../icons/Search.astro';
+import LibraryIcon from '../icons/Library.astro';
+---
+
+<nav class='flex flex-col item-center flex-1 gap-2'>
+  <div class='bg-[#121212] rounded-lg p-2'>
+    <ul>
+      <SideMenuItem>
+        <HomeIcon />
+        Home
+      </SideMenuItem>
+      <SideMenuItem>
+        <SearchIcon />
+        Buscar
+      </SideMenuItem>
+    </ul>
+  </div>
+
+  <div class='bg-[#121212] rounded-lg p-2 flex-1'>
+    <ul>
+      <SideMenuItem>
+        <LibraryIcon />
+        Tu biblioteca
+      </SideMenuItem>
+    </ul>
+  </div>
+</nav>
